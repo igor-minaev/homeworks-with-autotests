@@ -1,18 +1,55 @@
-.sendForm {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
+.sendForm {
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .textarea {
+    width: 976px;
+    height: 40px;
+    border-radius: 20px;
+    background: #F5F7FB;
+    box-shadow: 0 1px 2px 0 rgba(29, 33, 38, 0.10), 0 5px 20px 0 rgba(29, 33, 38, 0.03);
+    padding: 12px 24px;
+    resize: none;
+    border: none;
+    overflow: auto;
+    outline: none;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.9;
+
+
 
 }
 
 .button {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background: #06C;
+    padding: 10px 38px;
+    color: #FFF;
 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
 }
 
 .button:hover {
 
 }
+
 .button:active {
 
 }

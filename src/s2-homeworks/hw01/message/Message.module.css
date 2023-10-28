@@ -1,17 +1,36 @@
-.message {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
+.message {
+    width: fit-content;
+    margin-left: auto;
 }
 
 .imageAndText {
-
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 5px;
 }
 
 .imageAndText img {
-
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
 }
 
 .text {
+    background-color: #0066cc;
+    width: fit-content;
+    padding: 8px 13px;
+    border-radius: 10px 10px 0 10px;
+}
 
+.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #0066cc;
+    border-right: 13px solid transparent;
 }
 
 .text:after {
@@ -19,13 +38,32 @@
 }
 
 .name {
-
+    color: #FFF;
+    margin-bottom: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: right;
 }
 
 .messageText {
-
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .time {
-
+    text-align: right;
+    margin-right: 11px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
