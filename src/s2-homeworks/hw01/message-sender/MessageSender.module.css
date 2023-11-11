@@ -16,6 +16,7 @@
     padding: 12px 24px;
     resize: none;
     border: none;
+    overflow:hidden;
     outline: none;
     color: rgba(0, 0, 0, 0.60);
     font-family: 'Montserrat', sans-serif;
